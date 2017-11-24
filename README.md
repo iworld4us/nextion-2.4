@@ -4,7 +4,7 @@ Firmware for Nextion 2.4" or 2.8" display to use with [MK4duo](https://github.co
 Video demo: [youtu.be/Kq1StPYwWfQ](https://youtu.be/Kq1StPYwWfQ).
 
 ## Enabling 3D GFX Preview
-Change this lines in `Nextion_lcd.cpp`:
+Change these lines in `/src/lcd/nextion/Nextion_lcd.cpp`:
 
 ```cpp
 if (strstr(buffer, "4827")) { // Model 4.3" Normal or Enhanced
