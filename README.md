@@ -1,9 +1,9 @@
-# Nextion 2.4" Firmware
-Firmware for Nextion 2.4" or 2.8" display to use with [MK4duo](https://github.com/MKFirmware/MK4duo) (3D Printer Arduino firmware).
+# Nextion 2.4", 2.8", 4.3" Firmwares
+Firmwares for Nextion 2.4", 2.8", 4.3" displays to use with [MK4duo](https://github.com/MKFirmware/MK4duo) (3D Printer Arduino firmware).
 
 Video demo: [youtu.be/Kq1StPYwWfQ](https://youtu.be/Kq1StPYwWfQ).
 
-## Enabling 3D GFX Preview
+## If 3D GFX Preview is not working
 Change this lines in `Nextion_lcd.cpp`:
 
 ```cpp
